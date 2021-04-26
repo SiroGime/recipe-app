@@ -1,0 +1,16 @@
+.search__recipe_container {
+    width: 90%;
+    margin: auto;
+}
+
+.not_found {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipes_not_found {
+    font-size: 2.2rem;
+}

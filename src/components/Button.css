@@ -1,0 +1,155 @@
+.search__button {
+    font-size: 1.4rem;
+    padding: 0.3rem;
+    margin-left: 0.5rem;
+    border-radius: 12px;
+    background: none;
+    border: 2px solid rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.search__button:hover {
+    background: rgb(255, 115, 0);
+    border: 2px solid rgb(255, 115, 0);
+    color: #fff;
+}
+
+.random__recipe__button {
+    position: absolute;
+    bottom: -30px;
+    left: 95px;
+    padding: 1rem 2rem;
+    background: #eee;
+    border-radius: 50px;
+    border: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgb(255, 115, 0);
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.random__recipe__button:hover {
+    transform: scale(1.1);
+    background: rgb(255, 115, 0);
+    color: #eee;
+}
+
+.random__button {
+    padding: 0.2rem 1rem;
+    background: #eee;
+    border-radius: 50px;
+    border: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgb(255, 115, 0);
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.random__button:hover {
+    background: rgb(255, 115, 0);
+    color: #eee;
+}
+
+.continue__button {
+    padding: 1rem 2rem;
+    background: #eee;
+    border-radius: 50px;
+    border: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgb(255, 115, 0);
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.continue__button:hover {
+    transform: scale(1.1);
+    background: rgb(255, 115, 0);
+    color: #eee;
+}
+
+.favorite__button {
+    padding: .3rem .8rem;
+    background: rgb(179, 179, 179);
+    border-radius: 50px;
+    border: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.favorite__button:hover {
+    transform: scale(1.1);
+    color: rgba(236, 11, 11, 0.747);
+}
+
+.favorite__button.active {
+    color: rgba(236, 11, 11, 0.747);
+}
+
+.random__recipe__button:focus,
+.search__button:focus,
+.random__button:focus,
+.continue__button:focus,
+.favorite__button:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 425px){
+    .random__button {
+        padding: 0.1rem 0.5rem;
+        font-size: 0.9rem;        
+    }
+
+    .random__button:hover {
+        background: #eee;
+        color: rgb(255, 115, 0);
+    }
+
+    .random__recipe__button {
+        left: 60px;
+        padding: 1rem 1.5rem;
+        font-size: 1.2rem;
+    }
+    
+    .random__recipe__button:hover {
+        transform: scale(1);
+    }
+
+    .favorite__button:hover {
+        transform: scale(1);
+        color: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .random__button {
+        padding: 0.1rem 0.2rem;
+        font-size: 0.8rem;        
+    }
+
+    .random__recipe__button {
+        bottom: -20px;
+        left: 60px;
+        padding: 0.8rem 1.2rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .random__recipe__button {
+        left: 45px;
+        padding: 0.8rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}
